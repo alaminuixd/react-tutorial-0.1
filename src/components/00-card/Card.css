@@ -1,0 +1,40 @@
+.card{
+    width: 100%;
+    max-width: 720px;
+    background-color:#1068be;
+    color: #FFF;
+    text-align: center;
+    padding: 30px 70px;
+    border-radius: 6px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 20px auto;
+}
+.card-title{
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+}
+.card-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #0e549a;
+    top: 35%;
+    left: 68px;
+    transform: rotate(318deg);
+    z-index: -1;
+    border-radius: 10px;
+}
+.card-content{
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.card-footer{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
