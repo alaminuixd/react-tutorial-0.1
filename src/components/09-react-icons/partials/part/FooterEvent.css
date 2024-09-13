@@ -1,0 +1,64 @@
+.event-request form * {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.event-request h3 {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.event-request form {
+  font-size: 17px;
+  padding: 10px 20px;
+  width: inherit;
+}
+.event-request button {
+  background-color: #000;
+  width: inherit;
+  font-size: 17px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+.event-request button:hover {
+  background-color: #000;
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+
+.event-request input,
+.event-request textarea {
+  width: 100%; /* Full width for responsiveness */
+  padding: 10px; /* Add padding for better spacing */
+  margin-bottom: 10px; /* Space between elements */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 3px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  font-size: 16px; /* Font size for readability */
+  color: #333; /* Text color */
+  outline: none; /* Remove default outline */
+}
+.event-request input {
+  background-color: #555;
+  border: none;
+}
+.event-request input:focus,
+.event-request textarea:focus {
+  background-color: #444; /* White background when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+  color: #fff;
+}
+
+.event-request input::placeholder,
+.event-request textarea::placeholder {
+  color: #888; /* Placeholder text color */
+}
+
+.event-request textarea {
+  height: 150px;
+  resize: vertical;
+  background-color: #555;
+  border: none;
+}

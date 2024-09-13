@@ -1,0 +1,6 @@
+.footer-solutions {
+  border-right: 1px solid #222;
+}
+.footer-solutions > h2 {
+  font-weight: 500;
+}

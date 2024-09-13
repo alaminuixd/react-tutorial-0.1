@@ -1,0 +1,27 @@
+.social-bar {
+  background: #eee;
+  border-bottom: 1px solid #d7d6d6;
+  padding: 15px;
+}
+.social-bar > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.social-bar > ul > li {
+  margin-left: 15px;
+  background-color: #0aaee1;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 12%);
+}
+.social-bar > ul > li:hover {
+  background-color: #0885ac;
+  transform: translateY(-3px);
+  transition: 0.5s;
+}

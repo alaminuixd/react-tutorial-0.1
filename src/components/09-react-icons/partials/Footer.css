@@ -1,0 +1,28 @@
+footer ul {
+  padding-left: 20px;
+}
+.footer-group1 {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(100px, 1fr)
+  ); /* Flexible layout */
+  gap: 10px; /* Space between items */
+}
+
+.footer-group1 > *:nth-child(1),
+.footer-group1 > *:nth-child(2),
+.footer-group1 > *:nth-child(3) {
+  grid-column: span 1;
+}
+.footer-group2 {
+  text-align: center;
+  border-top: 1px solid #222;
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  .footer-group1 {
+    grid-template-columns: 25% 25% 50%; /* 25%, 25%, 50% layout on larger screens */
+    gap: 20px; /* Increase gap for larger screens */
+  }
+}
