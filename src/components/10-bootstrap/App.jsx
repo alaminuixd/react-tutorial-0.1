@@ -1,10 +1,10 @@
 import React from "react";
-import State from "./components/11-state/State";
+import Bootstrap from "./components/10-bootstrap/Bootstrap";
 
 function App() {
   return (
     <div>
-      <State />
+      <Bootstrap />
     </div>
   );
 }
