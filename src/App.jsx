@@ -1,10 +1,10 @@
 import React from "react";
-import State from "./components/10-state/State";
+import Condition from "./components/11-conditional-rendering/Index";
 
 function App() {
   return (
     <div>
-      <State />
+      <Condition />
     </div>
   );
 }
