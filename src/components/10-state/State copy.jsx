@@ -18,16 +18,18 @@ export default class State extends Component {
       });
     };
     this.handleName = (e) => {
+      let namVal = e.target.value;
       this.setState({
-        name: e.target.value,
+        name: (this.state.name = namVal),
       });
     };
   }
   render() {
     const { count, name } = this.state;
+    console.log(count);
     return (
       <div>
-        <h1>The number is {count}</h1>
+        <h1>The count value is {count}</h1>
         <Button
           variant="primary"
           size="lg"
@@ -44,11 +46,12 @@ export default class State extends Component {
         >
           +
         </Button>{" "}
-        <h1>Your name is {name || "default name"}</h1>
+        {/* Form Area */}
+        <h1>Your name is {name}</h1>
         <input
           type="text"
-          name="myName"
-          placeholder="default name"
+          name="theName"
+          placeholder="Your Name"
           onChange={this.handleName}
         />
       </div>
