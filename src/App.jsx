@@ -1,10 +1,10 @@
 import React from "react";
-import Condition from "./components/11-conditional-rendering/Index";
+import EventBinding from "./components/12-event-in-class/02-eventBinding/EventBinding";
 
 function App() {
   return (
     <div>
-      <Condition />
+      <EventBinding />
     </div>
   );
 }
