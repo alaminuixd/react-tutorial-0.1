@@ -1,5 +1,5 @@
 import React from "react";
-import CardClass from "./components/08-class-component/CardClass";
+import CardClass from "./components/07-class-component/CardClass";
 import "./App.css";
 // custom component 1
 function Welcome1() {
