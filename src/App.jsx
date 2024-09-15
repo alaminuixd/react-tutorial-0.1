@@ -1,10 +1,9 @@
 import React from "react";
-import EventBinding from "./components/12-state-in-class/02-eventBinding/EventBinding";
-
+import UseState1 from "./components/13-state-in-component/01-useState/UseState1";
 function App() {
   return (
     <div>
-      <EventBinding />
+      <UseState1 />
     </div>
   );
 }

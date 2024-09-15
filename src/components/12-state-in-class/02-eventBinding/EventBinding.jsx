@@ -10,7 +10,7 @@ export default class EventBinding extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   /* 
-  //* Note: ES6 Arrow function
+  //* Note: ES6 Arrow function doesn't need event bindings
   handleClick = () => {
     this.setState(
       {
@@ -20,7 +20,7 @@ export default class EventBinding extends Component {
     );
   };
   */
-  //* Note: Regular function you need to bind(this)
+  //* Note: Event binding is used for regular functions to bind(this)
   handleClick() {
     this.setState(
       {
