@@ -1,9 +1,12 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 export default function UseState1() {
+  // update state based on previos state
   const [count, setCount] = useState(0);
   const handleClick = () => {
-    setCount(count + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
   };
   return (
     <div>

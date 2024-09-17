@@ -1,9 +1,9 @@
 import React from "react";
-import UseState1 from "./components/13-state-in-component/01-useState/UseState1";
+import EventBubble from "./components/13-state-in-component/03-event-bubbleing/EventBubble";
 function App() {
   return (
     <div>
-      <UseState1 />
+      <EventBubble />
     </div>
   );
 }
