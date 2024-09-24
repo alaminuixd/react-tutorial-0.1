@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   max-width: 720px;
+  height: 97vh;
   background-color: #1068be;
   color: #fff;
   text-align: center;

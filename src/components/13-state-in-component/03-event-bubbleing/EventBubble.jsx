@@ -3,11 +3,11 @@ import React from "react";
 import "./EventBubble.css";
 function EventBubbl() {
   const handleChildClick = (e) => {
-    console.log(`Child Event: ${e}`);
     e.stopPropagation();
+    console.log(`Child Event: ${e.target.textContent}`);
   };
   const handleParentClick = (e) => {
-    console.log(`Parent Event: ${e}`);
+    console.log(`Parent Event: ${e.target.textContent}`);
   };
   return (
     <div className="parent" onClick={handleParentClick}>
