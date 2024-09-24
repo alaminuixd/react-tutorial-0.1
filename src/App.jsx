@@ -1,9 +1,9 @@
 import React from "react";
-import Form4 from "./components/14-form/Form4";
+import Form6 from "./components/14-form/Form6";
 function App() {
   return (
     <div>
-      <Form4 />
+      <Form6 />
     </div>
   );
 }
