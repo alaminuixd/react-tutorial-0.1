@@ -21,7 +21,7 @@ function NewTodo(props) {
           value={todo}
           onChange={handleInputChange}
         />
-        <button type="submit">Add</button>
+        <button type="submit">Add Item</button>
       </form>
     </div>
   );
