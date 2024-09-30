@@ -8,7 +8,9 @@ const dummyTodos = ["todo1", "todo2"];
 function Home() {
   const [todos, setTodos] = useState(dummyTodos);
   const handleOnNewTodo = (newTodo) => {
-    setTodos([...todos, newTodo]);
+    setTodos((prev) => {
+      return [...prev, newTodo];
+    });
   };
   return (
     <div className="home-container">
