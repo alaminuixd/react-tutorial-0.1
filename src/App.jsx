@@ -1,9 +1,9 @@
-import React from "react";
-import Form6 from "./components/14-form/Form6";
+import Home from "./components/15-state-lifting/section-02/Home";
+
 function App() {
   return (
     <div>
-      <Form6 />
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+form {
+  background-color: #eee;
+  padding: 30px 50px;
+}
+input {
+  display: block;
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
+}
