@@ -1,0 +1,33 @@
+form.new-todo {
+  background-color: #e8e8e8;
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+form.new-todo label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+form.new-todo input {
+  margin-bottom: inherit;
+}
+form.new-todo textarea {
+  height: 150px;
+  margin-bottom: 20px;
+  resize: none;
+}
+form.new-todo input,
+form.new-todo textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #888;
+  background: #e8e8e8;
+  border-radius: 3px;
+}
+form.new-todo button {
+  padding: 12px 25px;
+  background-color: #333;
+  border: none;
+}

@@ -1,0 +1,26 @@
+article.single-todo {
+  background-color: #e8e8e8;
+  color: #333;
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+article.single-todo h3 {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 600;
+}
+article.single-todo p {
+  font-size: 17px;
+  line-height: 27px;
+}
+.trush-can {
+  border: none !important;
+  background: none !important;
+  font-size: 28px;
+  color: #a20071;
+}
