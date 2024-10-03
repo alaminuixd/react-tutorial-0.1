@@ -13,7 +13,7 @@ function NewTodo(props) {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="newTodos">Add a new todo</label>
+      <label htmlFor="newTodo">Add a new todo</label>
       <input
         type="text"
         name="newTodo"

@@ -7,8 +7,8 @@ const dummyArray = ["Waking up early", "Taking shower"];
 
 function Home() {
   const [todos, setTodos] = useState(dummyArray);
-  // state lifting function
-  const onNewTodo = (newTodo) => {
+  // This state lifting function will execute only on the form submission event in "NewTodo.jsx"
+  const handleNewTodo = (newTodo) => {
     setTodos((prev) => {
       console.log("Prev: ", prev);
       console.log("newTodo:", newTodo);
@@ -17,7 +17,7 @@ function Home() {
   };
   return (
     <div className="home-container">
-      <NewTodo onNewTodo={onNewTodo} />
+      <NewTodo onNewTodo={handleNewTodo} />
       <Todos todos={todos} />
     </div>
   );
