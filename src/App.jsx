@@ -1,4 +1,4 @@
-import Home from "./components/15-state-lifting/section-03/Home";
+import Home from "./components/16-todo-app/02-app/Home";
 
 function App() {
   return (

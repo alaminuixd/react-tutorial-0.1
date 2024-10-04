@@ -1,0 +1,40 @@
+.todo-list {
+  background-color: #eee;
+  color: #222;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+h3.no-todo-found {
+  padding: 20px 40px;
+}
+.todo-list > div:first-child {
+  padding: 20px 40px;
+}
+.todo-list h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+  padding: 0px;
+}
+.todo-list p {
+  margin: 0;
+}
+.btnDelete {
+  font-size: 25px;
+  cursor: pointer;
+  padding-right: 20px;
+  transition: 0.5s;
+}
+.btnDelete:hover {
+  color: red;
+}
+.fw-0 {
+  font-weight: 400;
+}
