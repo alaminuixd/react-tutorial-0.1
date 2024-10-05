@@ -18,6 +18,7 @@ const dummyTodos = [
 ];
 function Home() {
   const [todos, setTodos] = useState(dummyTodos);
+  // handeler functions
   const handleNewTodo = (newTodo) => {
     setTodos((prev) => {
       return [...prev, newTodo];

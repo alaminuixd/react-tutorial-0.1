@@ -1,0 +1,23 @@
+.faq {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.faq > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq > div > button {
+  background-color: #282828;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 0 10px;
+  border-radius: 5px;
+}
