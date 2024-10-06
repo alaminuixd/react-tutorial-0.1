@@ -1,16 +1,12 @@
-/* import Home from "./components/16-todo-app/02-app/Home"; */
-
-import Signup from "./components/17-form-validation/0.2-formik-yup/Signup";
-import Toggle from "./components/18-toggle/0.1-toggle/Toggle";
-import Faqs from "./components/18-toggle/0.4-toggle-app/Faqs";
-import UseEffect from "./components/19-useEffect/0.1-useEffect/UseEffect";
-import DataFetch from "./components/19-useEffect/0.3-data-fetch/DataFetch";
+import DataFetch from "./components/20-custom-hook/0.1-custom-hook/DataFetch";
+import Toastify from "./components/20-custom-hook/0.3-react-toastify/Toastify";
 
 function App() {
   return (
     <div>
       {/* <UseEffect /> */}
-      <DataFetch />
+      {/* <DataFetch /> */}
+      <Toastify />
     </div>
   );
 }
