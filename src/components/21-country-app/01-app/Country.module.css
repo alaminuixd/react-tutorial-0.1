@@ -1,0 +1,23 @@
+.country-card {
+  background: #f6f6f6;
+  padding: 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.country-card h3 {
+  font-size: 22px;
+}
+.country-card div:last-child {
+  margin-top: 20px;
+}
+.country-card button {
+  border: none;
+  background-color: #222;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 500;
+}

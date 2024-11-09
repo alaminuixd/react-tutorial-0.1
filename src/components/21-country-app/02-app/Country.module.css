@@ -1,0 +1,61 @@
+.country-card-container {
+  overflow: hidden;
+  background-color: #fff;
+  color: #333;
+  font-size: 17px;
+  line-height: 27px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.country-card-container:hover {
+  transform: translateY(-2px);
+}
+.country-card-container h3 {
+  font-size: 25px;
+  color: green;
+  padding-bottom: 5px;
+}
+.country-card-container p {
+  padding-bottom: 0px;
+  line-height: 17px;
+  /* line-height: 15px; */
+}
+.country-card-container p:nth-child(2) {
+  line-height: 27px;
+}
+
+.country-card-container > div:first-child {
+  width: 370px; /* Make sure this matches the height for a perfect circle */
+  height: 200px;
+  overflow: hidden;
+  background-position: center center;
+  display: flex; /* Center the image */
+  justify-content: center;
+  align-items: center;
+}
+
+.country-card-container div:first-child > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+.country-card-container > div:last-child {
+  padding: 20px 30px;
+}
+
+.country-card-container button {
+  border: none;
+  background-color: #222;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 12px 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.country-card-container button:hover {
+  background-color: #00422c;
+}
