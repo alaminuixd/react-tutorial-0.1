@@ -12,12 +12,14 @@ function NewTodo(props) {
   const titleInputRef = useRef(null); // Ref for focusing title input
 
   const handleInputChange = (e) => {
-    setNewTodo((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
-    setError("");
+    const { name, value } = e.target;
+    setNewTodo((prev) => {
+      return { ...prev, [name]: value };
+    });
     setSuccess(false);
+    if (prev.title.length > 0) {
+      setError("");
+    }
   };
 
   const handleSubmit = (e) => {

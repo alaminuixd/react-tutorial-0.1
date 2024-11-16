@@ -1,7 +1,7 @@
-import DataFetch from "./components/20-custom-hook/0.3-custom-hook/DataFetch";
+import Home from "./components/16-todo-app/04-app/Home";
 
 function App() {
-  return <DataFetch />;
+  return <Home />;
 }
 
 export default App;

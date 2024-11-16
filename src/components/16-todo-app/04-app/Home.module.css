@@ -1,0 +1,21 @@
+.home-container {
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  padding: 20px 40px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.home-container h1 {
+  font-weight: 600;
+}
+.home-container h1,
+.home-container h2 {
+  font-size: 30px;
+  text-align: center;
+}
+button {
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  transition: border-color 0.25s;
+}
