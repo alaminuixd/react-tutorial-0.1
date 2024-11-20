@@ -1,1 +1,7 @@
-
+body > div {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  border: 1px solid #e1e1e1;
+  padding: 30px 40px;
+}
