@@ -1,3 +1,26 @@
+.text-center {
+  text-align: center;
+}
+.error {
+  color: #f00;
+}
+.success {
+  color: #008b2a;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+.book-container {
+  margin-top: 30px;
+}
+.book-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 30px;
+  border: 1px solid #dddcdc;
+}
 form {
   max-width: 550px;
   margin: auto;
@@ -19,4 +42,18 @@ button {
   color: #fff;
   font-weight: 500;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.modal-text {
+  margin-top: 20px;
+  color: green;
+}
+.deleteBook {
+  padding: 3px 10px;
+  margin-left: 10px;
+  background-color: #eee;
+  box-shadow: none;
+  color: #333;
+}
+.deleteBook:hover {
+  background-color: #e3e3e3;
 }
