@@ -5,7 +5,7 @@ const Memo = () => {
   const [count, setCount] = useState(0);
   const [toggle, setToggle] = useState(false);
   console.log("Memo rendering!");
-  // without "useMemo" everytime anything re-render, caused by state change or component change, the for loop would have executed and took long time.
+  // without "useMemo" everytime anything re-render, caused by state change or component change, the for loop would have executed/ itterated and took long time.
   const calcNum = useMemo(() => {
     let num = 0;
     for (let i = 0; i <= 500000000; i++) {
