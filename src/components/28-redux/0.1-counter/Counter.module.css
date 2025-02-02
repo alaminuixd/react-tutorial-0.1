@@ -1,0 +1,16 @@
+.counter-wrapper {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+h2,
+p {
+  text-align: center;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+button:disabled {
+  opacity: 0.5;
+}
