@@ -1,5 +1,5 @@
 import React from "react";
-import CardClass from "./components/08-class-component/CardClass";
+// import CardClass from "./components/08-class-component/CardClass";
 import "./App.css";
 // custom component 1
 function Welcome1() {
@@ -39,11 +39,11 @@ function Todos2() {
   );
 }
 
-function App() {
+function MyApp() {
   return (
     <div className="container">
       <h1 className="title">BD Store</h1>
-      <CardClass str={"Hello world"} />
+      {/* <CardClass str={"Hello world"} /> */}
       <Welcome1 />
       <Welcome2 />
       <Todos />
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default MyApp;
